@@ -1,0 +1,6 @@
+Front End
+Front End es la parte de una aplicación que interactúa con los usuarios, es conocida como el lado del cliente. Básicamente es todo lo que vemos en la pantalla cuando accedemos a un sitio web o aplicación: tipos de letra, colores, adaptación para distintas pantallas(RWD), los efectos del ratón, teclado, movimientos, desplazamientos, efectos visuales… y otros elementos que permiten navegar dentro de una página web. Este conjunto crea la experiencia del usuario.
+
+Como hemos dicho, el desarrollador front end se encarga de la experiencia del usuario, es decir,  en el momento en el que este entra a una página web, debe ser capaz de navegar por ella, por lo que el usuario verá una interface sencilla de usar, atractiva y funcional.
+
+Algunos lenguajes que debería conocer un desarrollador: HTML5, CSS3, JavaScript, Jquery, Ajax.
