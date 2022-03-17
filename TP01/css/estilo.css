@@ -16,7 +16,10 @@ header h1 {
 }
 
 nav {
-
+    background-color: darkgoldenrod;
+    height: 30px;
+    top: 50%;
+    left: 50%;
 }
 
 nav li {
@@ -41,7 +44,9 @@ h2 {
 }
 
 figure {
-
+    max-width: 33%;
+    float: left;
+    margin: 10px 10px 0px 0;
 }
 
 figure img {

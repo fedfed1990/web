@@ -80,7 +80,7 @@ a:active {
 .item {
  flex-grow:0;
  margin:0 20px 20px;
- width:33%
+ width:35%
 }
 .item a {
  line-height:1.6em
