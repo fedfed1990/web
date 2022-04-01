@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "McFont";
+    src: url("../fonts/Minecraft.woff") format("woff"), url("../fonts/Minecraft.ttf") format("truetype");
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: McFont;
+    color: #aaa;
+    text-shadow: 0.15em 0.15em #3f3f3f;
+}
+body {
+    background-color: rgb(64, 64, 64);
+
+
+}
+header {
+    display: flex;
+    background-color: #171717;
+
+}
+header img {
+    height: 10vh;
+    margin: 1vh 1vw;
+}
+header p {
+    padding-left: 1%;
+    align-self: center;
+    font-size: 5vh;
+}
+nav {
+    width: 100%;
+    justify-content: center;
+    background-color: #292929;
+    display: flex;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+nav ul a {
+    display: flex;
+    font-size: 5vh;
+    margin: 2vh 1vw;
+}
+nav li {
+    align-self: center;
+}
+
+nav li:hover {
+    background-color: #202020;
+}
+main {
+    background-color: #202020;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+aside {
+    width: 100vwvw;
+    background-color: #292929;
+}
+main figure {
+    width: 20vw;
+    margin: 0 1% 1% 1%;
+    border: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    flex-direction: row;
+}
+section aside figure, section main figure {
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin: 0 1% 1% 1%;
+    border: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    
+}
+
+aside figure img, main figure img {
+    width: 100%;
+}
+aside p {
+    margin: 1%;
+}
+.right {
+    float: right;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+
+}
+strong, i{
+    color: white;
+}
+hr {
+    border-top: 3px dashed #bbb;
+    margin: 1rem 1%;
+    border-radius: 5px;
+}
+footer{
+    width: max-content;
+}

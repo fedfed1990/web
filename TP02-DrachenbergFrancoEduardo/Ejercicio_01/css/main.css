@@ -11,7 +11,7 @@
     text-shadow: 0.15em 0.15em #3f3f3f;
 }
 body {
-    background-color: #404040;
+    background-color: rgb(64, 64, 64);
 
 
 }
@@ -54,31 +54,28 @@ nav li:hover {
     background-color: #202020;
 }
 main {
-    width: 80vw;
-    float: right;
     background-color: #202020;
 }
 
 aside {
-    width: 20vw;
-    float: rig;
+    width: 60vw;
     background-color: #292929;
-    display:block;
-    
 }
 aside figure, main figure {
     width: 40%;
     text-align: center;
     float: left;
     margin: 0 1% 1% 1%;
-    border: #fff;
+    border: white;
     border-style: solid;
     border-radius: 5px;
     border-width: 1px;
 }
 aside figure img, main figure img {
     width: 100%;
-
+}
+aside p {
+    margin: 1%;
 }
 .right {
     float: right;
@@ -86,8 +83,14 @@ aside figure img, main figure img {
 
 section {
     display: flex;
-    min-height: 78.5vh;
+    flex-direction: row;
+
 }
 strong, i{
-    color: #fff;
+    color: white;
+}
+hr {
+    border-top: 3px dashed #bbb;
+    margin: 1rem 1%;
+    border-radius: 5px;
 }
