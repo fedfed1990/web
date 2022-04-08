@@ -1,0 +1,105 @@
+* {
+    color: #aaa;
+}
+body{
+    margin: 0;
+    background-color: #191919;
+}
+.isflex {
+    display: flex;
+}
+h1 {
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: center;;
+    background-color: #171717;
+}
+ul {
+    display: flex;
+    height: 100%;
+}
+nav a {
+    padding: 1vw 1vh;
+}
+nav ul :hover, nav ul :focus{
+    background-color: #202020;
+}
+
+li {
+    list-style-type: none;
+    align-items: center;
+    align-self: center
+}
+header {
+    display: flex;
+    height: 10vh;
+    background-color: #212121;
+    
+}
+header img{
+    margin: 1%;
+}
+main{
+    display: flex;
+    justify-content: center;;
+    flex-wrap: wrap;
+
+}
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    width: 40vw;
+}
+.right-article {
+    background-color: #272727;
+    border-radius: 0 20px 0 20px;
+
+}
+.left-article {
+    background-color: #303030;
+    border-radius: 20px 0 20px 0;
+
+}
+footer{
+    display: flex;
+    background-color: #171717;
+    flex-direction: column;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.actor{
+    border-radius: 20px;
+    background-color: #272727;
+    width: 20vw;
+    align-content: center;
+    text-align: center;
+    padding: 0;
+}
+.face {
+    border-radius: 50%;
+    width: 50%;
+    align-self: center;
+    margin: 5%;
+}
+.name {
+width: 100%;
+
+background-color: #121212;
+}
+.spoiler {
+    color: #171717;
+    background-color: #171717;
+}
+
+.spoiler:hover , .spoiler:focus{
+    color: #aaa;
+    background-color: unset;
+
+}
